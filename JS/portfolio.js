@@ -13,12 +13,12 @@ showSlides(slideIndex);
 
 //This function changes the slide when the left or right arrows are clicked
 function plusSlides(n) {
-    showSlides(slideIndex = n);
+    showSlides(slideIndex += n);
 }
 
 // This function changes the slide when the dots are clicked
 function currentSlide(n) {
-    showSlides(slideIndex += n);
+    showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
